@@ -132,6 +132,60 @@ Autoregressive generation using:
 
 ---
 
+---
+
+## 🚀 Key Contributions
+
+- ✅ Built GPT-style model from scratch (no pretrained weights)
+- ✅ Designed full preprocessing pipeline for WikiText
+- ✅ Implemented both char-level and BPE tokenization
+- ✅ Performed dataset-level statistical analysis
+- ✅ Developed scalable training pipeline with early stopping
+- ✅ Implemented controlled text generation (temperature + top-k)
+
+---
+
+## ⚙️ Tech Stack
+
+- Python
+- PyTorch
+- NLTK
+- HuggingFace Tokenizers (GPT-2)
+
+---
+
+## 📈 Future Work
+
+- Train on full dataset (not truncated)
+- Scale model size further
+- Add validation metrics (perplexity)
+- Fine-tuning on domain-specific data
+- Experiment with RLHF / instruction tuning
+- Improve decoding strategies (top-p, beam search)
+
+---
+
+## 🧠 Key Learning Outcomes
+
+- Practical understanding of Transformer architecture
+- Importance of data preprocessing in NLP
+- Trade-offs between tokenization methods
+- Training stability techniques (early stopping)
+- Impact of model scale on performance
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates a **complete pipeline for language model training from raw data to generation**, highlighting the importance of preprocessing, tokenization, and model design in NLP systems.
+
+---
+
+## 👤 Author
+
+**Parth**  
+GitHub: https://github.com/parthj732005
+
 ## 📊 Results
 
 ### Training Observations
